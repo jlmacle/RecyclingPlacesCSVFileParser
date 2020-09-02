@@ -1,0 +1,505 @@
+[DEBUG] 2020-09-02 07:35:59.523 [main] logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[DEBUG] 2020-09-02 07:35:59.531 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2020-09-02 07:35:59.532 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[DEBUG] 2020-09-02 07:35:59.536 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[INFO ] 2020-09-02 07:35:59.559 [main] Version - HHH000412: Hibernate ORM core version 5.4.20.Final
+[DEBUG] 2020-09-02 07:35:59.561 [main] Environment - HHH000206: hibernate.properties not found
+[DEBUG] 2020-09-02 07:35:59.732 [main] LocalXmlResourceResolver - Interpreting public/system identifier : [null] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[DEBUG] 2020-09-02 07:35:59.732 [main] LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2020-09-02 07:35:59.737 [main] JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[DEBUG] 2020-09-02 07:35:59.991 [main] LocalXmlResourceResolver - Interpreting public/system identifier : [null] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[DEBUG] 2020-09-02 07:35:59.991 [main] LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2020-09-02 07:36:00.180 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2020-09-02 07:36:00.180 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[DEBUG] 2020-09-02 07:36:00.180 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[DEBUG] 2020-09-02 07:36:00.187 [main] ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[DEBUG] 2020-09-02 07:36:00.187 [main] Configuration - Building session factory using provided StandardServiceRegistry
+[DEBUG] 2020-09-02 07:36:00.202 [main] RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[DEBUG] 2020-09-02 07:36:00.203 [main] RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[INFO ] 2020-09-02 07:36:00.230 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[DEBUG] 2020-09-02 07:36:00.549 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@2cae1042
+[DEBUG] 2020-09-02 07:36:00.550 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@2cae1042
+[DEBUG] 2020-09-02 07:36:00.550 [main] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@2cae1042
+[DEBUG] 2020-09-02 07:36:00.550 [main] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@2262b621
+[DEBUG] 2020-09-02 07:36:00.551 [main] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@788fcafb
+[DEBUG] 2020-09-02 07:36:00.552 [main] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@1698ee84
+[DEBUG] 2020-09-02 07:36:00.553 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@42e3ede4
+[DEBUG] 2020-09-02 07:36:00.553 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@42e3ede4
+[DEBUG] 2020-09-02 07:36:00.553 [main] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@42e3ede4
+[DEBUG] 2020-09-02 07:36:00.554 [main] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@3e5499cc
+[DEBUG] 2020-09-02 07:36:00.554 [main] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@3e5499cc
+[DEBUG] 2020-09-02 07:36:00.554 [main] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@3e5499cc
+[DEBUG] 2020-09-02 07:36:00.555 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@15cafec7
+[DEBUG] 2020-09-02 07:36:00.555 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@15cafec7
+[DEBUG] 2020-09-02 07:36:00.555 [main] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@15cafec7
+[DEBUG] 2020-09-02 07:36:00.556 [main] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@792bbc74
+[DEBUG] 2020-09-02 07:36:00.556 [main] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@792bbc74
+[DEBUG] 2020-09-02 07:36:00.556 [main] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@792bbc74
+[DEBUG] 2020-09-02 07:36:00.557 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@338494fa
+[DEBUG] 2020-09-02 07:36:00.557 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@338494fa
+[DEBUG] 2020-09-02 07:36:00.557 [main] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@338494fa
+[DEBUG] 2020-09-02 07:36:00.558 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@19ae6bb
+[DEBUG] 2020-09-02 07:36:00.558 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@19ae6bb
+[DEBUG] 2020-09-02 07:36:00.558 [main] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@19ae6bb
+[DEBUG] 2020-09-02 07:36:00.560 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@2bb7bd00
+[DEBUG] 2020-09-02 07:36:00.560 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@2bb7bd00
+[DEBUG] 2020-09-02 07:36:00.560 [main] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2bb7bd00
+[DEBUG] 2020-09-02 07:36:00.561 [main] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@14b030a0
+[DEBUG] 2020-09-02 07:36:00.562 [main] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@14b030a0
+[DEBUG] 2020-09-02 07:36:00.563 [main] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@56bca85b
+[DEBUG] 2020-09-02 07:36:00.563 [main] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@56bca85b
+[DEBUG] 2020-09-02 07:36:00.564 [main] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@22b53226
+[DEBUG] 2020-09-02 07:36:00.564 [main] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@22b53226
+[DEBUG] 2020-09-02 07:36:00.565 [main] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@40c80397
+[DEBUG] 2020-09-02 07:36:00.565 [main] BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@e077866
+[DEBUG] 2020-09-02 07:36:00.566 [main] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@1c7fd41f
+[DEBUG] 2020-09-02 07:36:00.566 [main] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@1c7fd41f
+[DEBUG] 2020-09-02 07:36:00.567 [main] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@662f5666
+[DEBUG] 2020-09-02 07:36:00.567 [main] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@662f5666
+[DEBUG] 2020-09-02 07:36:00.577 [main] BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@a4b2d8f
+[DEBUG] 2020-09-02 07:36:00.577 [main] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@a4b2d8f
+[DEBUG] 2020-09-02 07:36:00.579 [main] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@2fea7088
+[DEBUG] 2020-09-02 07:36:00.579 [main] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@2fea7088
+[DEBUG] 2020-09-02 07:36:00.580 [main] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@40f1be1b
+[DEBUG] 2020-09-02 07:36:00.580 [main] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@40f1be1b
+[DEBUG] 2020-09-02 07:36:00.582 [main] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@6b9ce1bf
+[DEBUG] 2020-09-02 07:36:00.582 [main] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@6b9ce1bf
+[DEBUG] 2020-09-02 07:36:00.583 [main] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@609640d5
+[DEBUG] 2020-09-02 07:36:00.583 [main] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@609640d5
+[DEBUG] 2020-09-02 07:36:00.584 [main] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@62ea3440
+[DEBUG] 2020-09-02 07:36:00.584 [main] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@62ea3440
+[DEBUG] 2020-09-02 07:36:00.587 [main] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5316e95f
+[DEBUG] 2020-09-02 07:36:00.587 [main] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5316e95f
+[DEBUG] 2020-09-02 07:36:00.588 [main] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@1e63ec0b
+[DEBUG] 2020-09-02 07:36:00.588 [main] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@1e63ec0b
+[DEBUG] 2020-09-02 07:36:00.589 [main] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@3918c187
+[DEBUG] 2020-09-02 07:36:00.589 [main] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@3918c187
+[DEBUG] 2020-09-02 07:36:00.590 [main] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@2ece4966
+[DEBUG] 2020-09-02 07:36:00.590 [main] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@2ece4966
+[DEBUG] 2020-09-02 07:36:00.591 [main] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@2ece4966
+[DEBUG] 2020-09-02 07:36:00.592 [main] BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@3d484181
+[DEBUG] 2020-09-02 07:36:00.593 [main] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@37bd68c3
+[DEBUG] 2020-09-02 07:36:00.593 [main] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@37bd68c3
+[DEBUG] 2020-09-02 07:36:00.593 [main] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@37bd68c3
+[DEBUG] 2020-09-02 07:36:00.593 [main] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@4721d212
+[DEBUG] 2020-09-02 07:36:00.594 [main] BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@62dae540
+[DEBUG] 2020-09-02 07:36:00.595 [main] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@636e8cc
+[DEBUG] 2020-09-02 07:36:00.595 [main] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@636e8cc
+[DEBUG] 2020-09-02 07:36:00.596 [main] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@619bfe29
+[DEBUG] 2020-09-02 07:36:00.596 [main] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@619bfe29
+[DEBUG] 2020-09-02 07:36:00.596 [main] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@2bef51f2
+[DEBUG] 2020-09-02 07:36:00.596 [main] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2bef51f2
+[DEBUG] 2020-09-02 07:36:00.597 [main] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@4e28bdd1
+[DEBUG] 2020-09-02 07:36:00.597 [main] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@4e28bdd1
+[DEBUG] 2020-09-02 07:36:00.598 [main] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@73db4768
+[DEBUG] 2020-09-02 07:36:00.598 [main] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@73db4768
+[DEBUG] 2020-09-02 07:36:00.598 [main] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@150ab4ed
+[DEBUG] 2020-09-02 07:36:00.599 [main] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@5ce33a58
+[DEBUG] 2020-09-02 07:36:00.599 [main] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@5ce33a58
+[DEBUG] 2020-09-02 07:36:00.599 [main] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@5ce33a58
+[DEBUG] 2020-09-02 07:36:00.600 [main] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@7a527389
+[DEBUG] 2020-09-02 07:36:00.600 [main] BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@7a527389
+[DEBUG] 2020-09-02 07:36:00.600 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@7a527389
+[DEBUG] 2020-09-02 07:36:00.601 [main] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@5b04476e
+[DEBUG] 2020-09-02 07:36:00.602 [main] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@c260bdc
+[DEBUG] 2020-09-02 07:36:00.603 [main] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@3f363cf5
+[DEBUG] 2020-09-02 07:36:00.603 [main] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@3f363cf5
+[DEBUG] 2020-09-02 07:36:00.603 [main] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@3f363cf5
+[DEBUG] 2020-09-02 07:36:00.604 [main] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@22d6f11
+[DEBUG] 2020-09-02 07:36:00.604 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@22d6f11
+[DEBUG] 2020-09-02 07:36:00.604 [main] BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@22d6f11
+[DEBUG] 2020-09-02 07:36:00.604 [main] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@44828f6b
+[DEBUG] 2020-09-02 07:36:00.605 [main] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@6e1d8f9e
+[DEBUG] 2020-09-02 07:36:00.607 [main] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@305f7627
+[DEBUG] 2020-09-02 07:36:00.608 [main] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@305f7627
+[DEBUG] 2020-09-02 07:36:00.609 [main] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@29e6eb25
+[DEBUG] 2020-09-02 07:36:00.611 [main] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@7bc10d84
+[DEBUG] 2020-09-02 07:36:00.612 [main] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@7bc10d84
+[DEBUG] 2020-09-02 07:36:00.614 [main] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@33e01298
+[DEBUG] 2020-09-02 07:36:00.615 [main] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@33e01298
+[DEBUG] 2020-09-02 07:36:00.616 [main] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4b3c354a
+[DEBUG] 2020-09-02 07:36:00.616 [main] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@21aa6d6c
+[DEBUG] 2020-09-02 07:36:00.617 [main] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@3f446bef
+[DEBUG] 2020-09-02 07:36:00.621 [main] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@36676c1a
+[DEBUG] 2020-09-02 07:36:00.621 [main] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@36676c1a
+[DEBUG] 2020-09-02 07:36:00.621 [main] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@2dbf4cbd
+[DEBUG] 2020-09-02 07:36:00.621 [main] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@20b5f2ac
+[DEBUG] 2020-09-02 07:36:00.621 [main] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@7fc44dec
+[DEBUG] 2020-09-02 07:36:00.622 [main] BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@7e3060d8
+[DEBUG] 2020-09-02 07:36:00.622 [main] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@293d0107
+[DEBUG] 2020-09-02 07:36:00.622 [main] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2692b61e
+[DEBUG] 2020-09-02 07:36:00.622 [main] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7b64240d
+[DEBUG] 2020-09-02 07:36:00.622 [main] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@62fad19
+[DEBUG] 2020-09-02 07:36:00.648 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[DEBUG] 2020-09-02 07:36:00.649 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[DEBUG] 2020-09-02 07:36:00.649 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2020-09-02 07:36:00.649 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2020-09-02 07:36:00.651 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[DEBUG] 2020-09-02 07:36:00.651 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[DEBUG] 2020-09-02 07:36:00.652 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[DEBUG] 2020-09-02 07:36:00.653 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2020-09-02 07:36:00.654 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[DEBUG] 2020-09-02 07:36:00.654 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[DEBUG] 2020-09-02 07:36:00.654 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[DEBUG] 2020-09-02 07:36:00.655 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[DEBUG] 2020-09-02 07:36:00.655 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2020-09-02 07:36:00.655 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[WARN ] 2020-09-02 07:36:00.659 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2020-09-02 07:36:00.665 [main] pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+[INFO ] 2020-09-02 07:36:00.665 [main] pooling - HHH10001001: Connection properties: {user=postgresp2, password=password}
+[INFO ] 2020-09-02 07:36:00.665 [main] pooling - HHH10001003: Autocommit mode: false
+[DEBUG] 2020-09-02 07:36:00.668 [main] DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+[INFO ] 2020-09-02 07:36:00.668 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+[DEBUG] 2020-09-02 07:36:00.814 [main] JdbcEnvironmentInitiator - Database ->
+       name : PostgreSQL
+    version : 12.4
+      major : 12
+      minor : 4
+[DEBUG] 2020-09-02 07:36:00.815 [main] JdbcEnvironmentInitiator - Driver ->
+       name : PostgreSQL JDBC Driver
+    version : 42.2.16
+      major : 42
+      minor : 2
+[DEBUG] 2020-09-02 07:36:00.815 [main] JdbcEnvironmentInitiator - JDBC version : 4.2
+[INFO ] 2020-09-02 07:36:00.831 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[DEBUG] 2020-09-02 07:36:00.847 [main] IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+[DEBUG] 2020-09-02 07:36:01.088 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[DEBUG] 2020-09-02 07:36:01.091 [main] BasicTypeRegistry - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@214894fc
+[DEBUG] 2020-09-02 07:36:01.091 [main] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.PostgresUUIDType@214894fc
+[DEBUG] 2020-09-02 07:36:01.091 [main] BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@73db4768
+[DEBUG] 2020-09-02 07:36:01.093 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@35e52059] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@62577d6]
+[DEBUG] 2020-09-02 07:36:01.179 [main] ClassLoaderAccessImpl - Not known whether passed class name [parser.Entry] is safe
+[DEBUG] 2020-09-02 07:36:01.179 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : parser.Entry
+[DEBUG] 2020-09-02 07:36:01.195 [main] AnnotationBinder - Binding entity from annotated class: parser.Entry
+[DEBUG] 2020-09-02 07:36:01.226 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2020-09-02 07:36:01.234 [main] EntityBinder - Import with entity name Entry
+[DEBUG] 2020-09-02 07:36:01.238 [main] EntityBinder - Bind entity parser.Entry on table entries
+[DEBUG] 2020-09-02 07:36:01.267 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(entries), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2020-09-02 07:36:01.270 [main] ClassLoaderAccessImpl - Not known whether passed class name [int] is safe
+[DEBUG] 2020-09-02 07:36:01.270 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : int
+[DEBUG] 2020-09-02 07:36:01.271 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2020-09-02 07:36:01.274 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [parser.Entry:id]
+[DEBUG] 2020-09-02 07:36:01.276 [main] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2020-09-02 07:36:01.279 [main] PropertyBinder - Building property id
+[DEBUG] 2020-09-02 07:36:01.283 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+[DEBUG] 2020-09-02 07:36:01.283 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(entries), mappingColumn=field1, insertable=true, updatable=true, unique=false}
+[DEBUG] 2020-09-02 07:36:01.284 [main] PropertyBinder - MetadataSourceProcessor property field1 with lazy=false
+[DEBUG] 2020-09-02 07:36:01.284 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [parser.Entry:field1]
+[DEBUG] 2020-09-02 07:36:01.284 [main] SimpleValueBinder - building SimpleValue for field1
+[DEBUG] 2020-09-02 07:36:01.284 [main] PropertyBinder - Building property field1
+[DEBUG] 2020-09-02 07:36:01.284 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(entries), mappingColumn=field2, insertable=true, updatable=true, unique=false}
+[DEBUG] 2020-09-02 07:36:01.284 [main] PropertyBinder - MetadataSourceProcessor property field2 with lazy=false
+[DEBUG] 2020-09-02 07:36:01.284 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [parser.Entry:field2]
+[DEBUG] 2020-09-02 07:36:01.284 [main] SimpleValueBinder - building SimpleValue for field2
+[DEBUG] 2020-09-02 07:36:01.284 [main] PropertyBinder - Building property field2
+[DEBUG] 2020-09-02 07:36:01.285 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(entries), mappingColumn=field3, insertable=true, updatable=true, unique=false}
+[DEBUG] 2020-09-02 07:36:01.285 [main] PropertyBinder - MetadataSourceProcessor property field3 with lazy=false
+[DEBUG] 2020-09-02 07:36:01.285 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [parser.Entry:field3]
+[DEBUG] 2020-09-02 07:36:01.285 [main] SimpleValueBinder - building SimpleValue for field3
+[DEBUG] 2020-09-02 07:36:01.285 [main] PropertyBinder - Building property field3
+[DEBUG] 2020-09-02 07:36:01.285 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(entries), mappingColumn=field4, insertable=true, updatable=true, unique=false}
+[DEBUG] 2020-09-02 07:36:01.285 [main] PropertyBinder - MetadataSourceProcessor property field4 with lazy=false
+[DEBUG] 2020-09-02 07:36:01.286 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [parser.Entry:field4]
+[DEBUG] 2020-09-02 07:36:01.286 [main] SimpleValueBinder - building SimpleValue for field4
+[DEBUG] 2020-09-02 07:36:01.286 [main] PropertyBinder - Building property field4
+[DEBUG] 2020-09-02 07:36:01.286 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(entries), mappingColumn=field5, insertable=true, updatable=true, unique=false}
+[DEBUG] 2020-09-02 07:36:01.286 [main] PropertyBinder - MetadataSourceProcessor property field5 with lazy=false
+[DEBUG] 2020-09-02 07:36:01.286 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [parser.Entry:field5]
+[DEBUG] 2020-09-02 07:36:01.286 [main] SimpleValueBinder - building SimpleValue for field5
+[DEBUG] 2020-09-02 07:36:01.286 [main] PropertyBinder - Building property field5
+[DEBUG] 2020-09-02 07:36:01.286 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(entries), mappingColumn=field6, insertable=true, updatable=true, unique=false}
+[DEBUG] 2020-09-02 07:36:01.286 [main] PropertyBinder - MetadataSourceProcessor property field6 with lazy=false
+[DEBUG] 2020-09-02 07:36:01.287 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [parser.Entry:field6]
+[DEBUG] 2020-09-02 07:36:01.287 [main] SimpleValueBinder - building SimpleValue for field6
+[DEBUG] 2020-09-02 07:36:01.287 [main] PropertyBinder - Building property field6
+[DEBUG] 2020-09-02 07:36:01.287 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(entries), mappingColumn=field7, insertable=true, updatable=true, unique=false}
+[DEBUG] 2020-09-02 07:36:01.287 [main] PropertyBinder - MetadataSourceProcessor property field7 with lazy=false
+[DEBUG] 2020-09-02 07:36:01.287 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [parser.Entry:field7]
+[DEBUG] 2020-09-02 07:36:01.287 [main] SimpleValueBinder - building SimpleValue for field7
+[DEBUG] 2020-09-02 07:36:01.287 [main] PropertyBinder - Building property field7
+[DEBUG] 2020-09-02 07:36:01.291 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2020-09-02 07:36:01.291 [main] SimpleValueBinder - Starting fillSimpleValue for field1
+[DEBUG] 2020-09-02 07:36:01.291 [main] SimpleValueBinder - Starting fillSimpleValue for field2
+[DEBUG] 2020-09-02 07:36:01.291 [main] SimpleValueBinder - Starting fillSimpleValue for field3
+[DEBUG] 2020-09-02 07:36:01.291 [main] SimpleValueBinder - Starting fillSimpleValue for field4
+[DEBUG] 2020-09-02 07:36:01.292 [main] SimpleValueBinder - Starting fillSimpleValue for field5
+[DEBUG] 2020-09-02 07:36:01.292 [main] SimpleValueBinder - Starting fillSimpleValue for field6
+[DEBUG] 2020-09-02 07:36:01.292 [main] SimpleValueBinder - Starting fillSimpleValue for field7
+[DEBUG] 2020-09-02 07:36:01.293 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [entries]
+[DEBUG] 2020-09-02 07:36:01.323 [main] SessionFactoryImpl - Building session factory
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - SessionFactory name : null
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - Automatic flush during beforeCompletion(): enabled
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - Automatic session close at end of transaction: disabled
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - Statistics: disabled
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - Deleted entity synthetic identifier rollback: disabled
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - Default entity-mode: pojo
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - Allow initialization of lazy state outside session : disabled
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - Using BatchFetchStyle : LEGACY
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - Default batch fetch size: -1
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - Maximum outer join fetch depth: null
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - Default null ordering: NONE
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - Order SQL updates by primary key: disabled
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - Order SQL inserts for batching: disabled
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - multi-tenancy strategy : NONE
+[DEBUG] 2020-09-02 07:36:01.324 [main] Settings - JTA Track by Thread: enabled
+[DEBUG] 2020-09-02 07:36:01.325 [main] Settings - Query language substitutions: {}
+[DEBUG] 2020-09-02 07:36:01.325 [main] Settings - Named query checking : enabled
+[DEBUG] 2020-09-02 07:36:01.325 [main] Settings - Second-level cache: disabled
+[DEBUG] 2020-09-02 07:36:01.325 [main] Settings - Second-level query cache: disabled
+[DEBUG] 2020-09-02 07:36:01.325 [main] Settings - Second-level query cache factory: null
+[DEBUG] 2020-09-02 07:36:01.325 [main] Settings - Second-level cache region prefix: null
+[DEBUG] 2020-09-02 07:36:01.325 [main] Settings - Optimize second-level cache for minimal puts: disabled
+[DEBUG] 2020-09-02 07:36:01.325 [main] Settings - Structured second-level cache entries: disabled
+[DEBUG] 2020-09-02 07:36:01.325 [main] Settings - Second-level cache direct-reference entries: disabled
+[DEBUG] 2020-09-02 07:36:01.325 [main] Settings - Automatic eviction of collection cache: disabled
+[DEBUG] 2020-09-02 07:36:01.325 [main] Settings - JDBC batch size: 15
+[DEBUG] 2020-09-02 07:36:01.325 [main] Settings - JDBC batch updates for versioned data: enabled
+[DEBUG] 2020-09-02 07:36:01.325 [main] Settings - Scrollable result sets: enabled
+[DEBUG] 2020-09-02 07:36:01.325 [main] Settings - Wrap result sets: disabled
+[DEBUG] 2020-09-02 07:36:01.325 [main] Settings - JDBC3 getGeneratedKeys(): enabled
+[DEBUG] 2020-09-02 07:36:01.326 [main] Settings - JDBC result set fetch size: null
+[DEBUG] 2020-09-02 07:36:01.326 [main] Settings - Connection release mode: AFTER_TRANSACTION
+[DEBUG] 2020-09-02 07:36:01.326 [main] Settings - Generate SQL with comments: disabled
+[DEBUG] 2020-09-02 07:36:01.326 [main] Settings - JPA compliance - query : disabled
+[DEBUG] 2020-09-02 07:36:01.326 [main] Settings - JPA compliance - closed-handling : disabled
+[DEBUG] 2020-09-02 07:36:01.326 [main] Settings - JPA compliance - lists : disabled
+[DEBUG] 2020-09-02 07:36:01.326 [main] Settings - JPA compliance - transactions : disabled
+[DEBUG] 2020-09-02 07:36:01.395 [main] SessionFactoryImpl - Session factory constructed with filter configurations : {}
+[DEBUG] 2020-09-02 07:36:01.395 [main] SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, java.class.path=C:\Users\jeanl\Documents\_PartiallySynchronizedFolder\Programming a good gift to Adelaide Ellie and Liam\RecyclingPlacesCSVFileParser\target\classes;C:\Users\jeanl\.m2\repository\org\hibernate\hibernate-core\5.4.20.Final\hibernate-core-5.4.20.Final.jar;C:\Users\jeanl\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\jeanl\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\jeanl\.m2\repository\org\javassist\javassist\3.24.0-GA\javassist-3.24.0-GA.jar;C:\Users\jeanl\.m2\repository\net\bytebuddy\byte-buddy\1.10.10\byte-buddy-1.10.10.jar;C:\Users\jeanl\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\jeanl\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\jeanl\.m2\repository\org\jboss\jandex\2.1.3.Final\jandex-2.1.3.Final.jar;C:\Users\jeanl\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\jeanl\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\jeanl\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\jeanl\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.0.Final\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\jeanl\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\jeanl\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\jeanl\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\jeanl\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\jeanl\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\jeanl\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\jeanl\.m2\repository\org\springframework\boot\spring-boot-starter-log4j2\2.3.3.RELEASE\spring-boot-starter-log4j2-2.3.3.RELEASE.jar;C:\Users\jeanl\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.13.3\log4j-slf4j-impl-2.13.3.jar;C:\Users\jeanl\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\jeanl\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\jeanl\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\jeanl\.m2\repository\org\apache\logging\log4j\log4j-jul\2.13.3\log4j-jul-2.13.3.jar;C:\Users\jeanl\.m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;C:\Users\jeanl\.m2\repository\org\postgresql\postgresql\42.2.16\postgresql-42.2.16.jar;C:\Users\jeanl\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=http://java.oracle.com/, user.timezone=Europe/Paris, os.name=Windows 10, java.vm.specification.version=1.8, user.country=US, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Program Files\Java\jre1.8.0_261\bin, sun.java.command=parser.CSVFileParser, sun.cpu.endian=little, user.home=C:\Users\jeanl, user.language=en, java.specification.vendor=Oracle Corporation, java.home=C:\Program Files\Java\jre1.8.0_261, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, sun.boot.class.path=C:\Program Files\Java\jre1.8.0_261\lib\resources.jar;C:\Program Files\Java\jre1.8.0_261\lib\rt.jar;C:\Program Files\Java\jre1.8.0_261\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_261\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_261\lib\jce.jar;C:\Program Files\Java\jre1.8.0_261\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_261\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_261\classes, hibernate.hbm2ddl.auto=create, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_261-b12, user.name=Jean-Louis Le Papa, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.endorsed.dirs=C:\Program Files\Java\jre1.8.0_261\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:postgresql://localhost:5432/postgres, file.encoding=Cp1252, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, show_sql=true, hibernate.connection.driver_class=org.postgresql.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\jeanl\AppData\Local\Temp\, java.version=1.8.0_261, user.dir=C:\Users\jeanl\Documents\_PartiallySynchronizedFolder\Programming a good gift to Adelaide Ellie and Liam\RecyclingPlacesCSVFileParser, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@f2e4acf, java.library.path=C:\Program Files\Java\jre1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\_Synchronized Folder\Powershell scripts;C:\Users\jeanl\AppData\Local\Microsoft\WindowsApps;C:\Users\jeanl\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jeanl\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin;C:\Users\jeanl\AppData\Roaming\npm;C:\Users\jeanl\AppData\Roaming\npm\node_modules\npm\bin;C:\Users\jeanl\AppData\Roaming\npm\node_modules\@angular\cli\bin;C:\Users\jeanl\AppData\Local\Programs\Git\cmd;C:\Users\jeanl\Documents\_Revature\sts-bundle\sts-3.9.11.RELEASE;;., java.vm.info=mixed mode, java.vendor=Oracle Corporation, java.vm.version=25.261-b12, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.pool_size=1, java.ext.dirs=C:\Program Files\Java\jre1.8.0_261\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.io.unicode.encoding=UnicodeLittle, java.class.version=52.0}
+[DEBUG] 2020-09-02 07:36:01.407 [main] JaccIntegrator - Skipping JACC integration as it was not enabled
+[DEBUG] 2020-09-02 07:36:01.408 [main] SessionFactoryImpl - Instantiated session factory
+[DEBUG] 2020-09-02 07:36:01.408 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@35e52059] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@1f443fae]
+[DEBUG] 2020-09-02 07:36:01.463 [main] ClassLoaderAccessImpl - Not known whether passed class name [parser.Entry] is safe
+[DEBUG] 2020-09-02 07:36:01.463 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : parser.Entry
+[DEBUG] 2020-09-02 07:36:01.480 [main] ClassLoaderAccessImpl - Not known whether passed class name [parser.Entry] is safe
+[DEBUG] 2020-09-02 07:36:01.480 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : parser.Entry
+[DEBUG] 2020-09-02 07:36:01.727 [main] AbstractEntityPersister - Static SQL for entity: parser.Entry
+[DEBUG] 2020-09-02 07:36:01.727 [main] AbstractEntityPersister -  Version select: select id from entries where id =?
+[DEBUG] 2020-09-02 07:36:01.727 [main] AbstractEntityPersister -  Snapshot select: select entry_.id, entry_.field1 as field2_0_, entry_.field2 as field3_0_, entry_.field3 as field4_0_, entry_.field4 as field5_0_, entry_.field5 as field6_0_, entry_.field6 as field7_0_, entry_.field7 as field8_0_ from entries entry_ where entry_.id=?
+[DEBUG] 2020-09-02 07:36:01.727 [main] AbstractEntityPersister -  Insert 0: insert into entries (field1, field2, field3, field4, field5, field6, field7, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:01.727 [main] AbstractEntityPersister -  Update 0: update entries set field1=?, field2=?, field3=?, field4=?, field5=?, field6=?, field7=? where id=?
+[DEBUG] 2020-09-02 07:36:01.727 [main] AbstractEntityPersister -  Delete 0: delete from entries where id=?
+[DEBUG] 2020-09-02 07:36:01.727 [main] AbstractEntityPersister -  Identity insert: insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:01.750 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3672276e]
+[DEBUG] 2020-09-02 07:36:01.751 [main] MetamodelGraphWalker - Visiting attribute path : field1
+[DEBUG] 2020-09-02 07:36:01.751 [main] MetamodelGraphWalker - Visiting attribute path : field2
+[DEBUG] 2020-09-02 07:36:01.752 [main] MetamodelGraphWalker - Visiting attribute path : field3
+[DEBUG] 2020-09-02 07:36:01.752 [main] MetamodelGraphWalker - Visiting attribute path : field4
+[DEBUG] 2020-09-02 07:36:01.752 [main] MetamodelGraphWalker - Visiting attribute path : field5
+[DEBUG] 2020-09-02 07:36:01.752 [main] MetamodelGraphWalker - Visiting attribute path : field6
+[DEBUG] 2020-09-02 07:36:01.752 [main] MetamodelGraphWalker - Visiting attribute path : field7
+[DEBUG] 2020-09-02 07:36:01.752 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2020-09-02 07:36:01.762 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2020-09-02 07:36:01.766 [main] LoadPlanTreePrinter - LoadPlan(entity=parser.Entry)
+    - Returns
+       - EntityReturnImpl(entity=parser.Entry, querySpaceUid=<gen:0>, path=parser.Entry)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=parser.Entry)
+          - SQL table alias mapping - entry0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2020-09-02 07:36:01.768 [main] EntityLoader - Static select for entity parser.Entry [NONE]: select entry0_.id as id1_0_0_, entry0_.field1 as field2_0_0_, entry0_.field2 as field3_0_0_, entry0_.field3 as field4_0_0_, entry0_.field4 as field5_0_0_, entry0_.field5 as field6_0_0_, entry0_.field6 as field7_0_0_, entry0_.field7 as field8_0_0_ from entries entry0_ where entry0_.id=?
+[DEBUG] 2020-09-02 07:36:01.768 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3a01773b]
+[DEBUG] 2020-09-02 07:36:01.769 [main] MetamodelGraphWalker - Visiting attribute path : field1
+[DEBUG] 2020-09-02 07:36:01.769 [main] MetamodelGraphWalker - Visiting attribute path : field2
+[DEBUG] 2020-09-02 07:36:01.769 [main] MetamodelGraphWalker - Visiting attribute path : field3
+[DEBUG] 2020-09-02 07:36:01.769 [main] MetamodelGraphWalker - Visiting attribute path : field4
+[DEBUG] 2020-09-02 07:36:01.769 [main] MetamodelGraphWalker - Visiting attribute path : field5
+[DEBUG] 2020-09-02 07:36:01.769 [main] MetamodelGraphWalker - Visiting attribute path : field6
+[DEBUG] 2020-09-02 07:36:01.769 [main] MetamodelGraphWalker - Visiting attribute path : field7
+[DEBUG] 2020-09-02 07:36:01.769 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2020-09-02 07:36:01.769 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2020-09-02 07:36:01.769 [main] LoadPlanTreePrinter - LoadPlan(entity=parser.Entry)
+    - Returns
+       - EntityReturnImpl(entity=parser.Entry, querySpaceUid=<gen:0>, path=parser.Entry)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=parser.Entry)
+          - SQL table alias mapping - entry0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2020-09-02 07:36:01.769 [main] EntityLoader - Static select for entity parser.Entry [READ]: select entry0_.id as id1_0_0_, entry0_.field1 as field2_0_0_, entry0_.field2 as field3_0_0_, entry0_.field3 as field4_0_0_, entry0_.field4 as field5_0_0_, entry0_.field5 as field6_0_0_, entry0_.field6 as field7_0_0_, entry0_.field7 as field8_0_0_ from entries entry0_ where entry0_.id=?
+[DEBUG] 2020-09-02 07:36:01.781 [main] Loader - Static select for action ACTION_MERGE on entity parser.Entry: select entry0_.id as id1_0_0_, entry0_.field1 as field2_0_0_, entry0_.field2 as field3_0_0_, entry0_.field3 as field4_0_0_, entry0_.field4 as field5_0_0_, entry0_.field5 as field6_0_0_, entry0_.field6 as field7_0_0_, entry0_.field7 as field8_0_0_ from entries entry0_ where entry0_.id=?
+[DEBUG] 2020-09-02 07:36:01.781 [main] Loader - Static select for action ACTION_REFRESH on entity parser.Entry: select entry0_.id as id1_0_0_, entry0_.field1 as field2_0_0_, entry0_.field2 as field3_0_0_, entry0_.field3 as field4_0_0_, entry0_.field4 as field5_0_0_, entry0_.field5 as field6_0_0_, entry0_.field6 as field7_0_0_, entry0_.field7 as field8_0_0_ from entries entry0_ where entry0_.id=?
+[DEBUG] 2020-09-02 07:36:01.814 [main] SQL - drop table if exists entries cascade
+[INFO ] 2020-09-02 07:36:01.815 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55e2fe3c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[DEBUG] 2020-09-02 07:36:01.835 [main] SQL - create table entries (id  serial not null, field1 varchar(255), field2 varchar(255), field3 varchar(255), field4 varchar(255), field5 varchar(255), field6 varchar(255), field7 varchar(255), primary key (id))
+[INFO ] 2020-09-02 07:36:01.836 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2b8bd798] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[DEBUG] 2020-09-02 07:36:01.861 [main] JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+[DEBUG] 2020-09-02 07:36:01.861 [main] JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[DEBUG] 2020-09-02 07:36:01.866 [main] StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-09-02 07:36:01.867 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[DEBUG] 2020-09-02 07:36:01.868 [main] NamedQueryRepository - Checking 0 named HQL queries
+[DEBUG] 2020-09-02 07:36:01.868 [main] NamedQueryRepository - Checking 0 named SQL queries
+[DEBUG] 2020-09-02 07:36:01.908 [main] SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@2b037cfc
+[DEBUG] 2020-09-02 07:36:01.910 [main] SessionFactoryRegistry - Registering SessionFactory: 5a3ee3d6-6028-45d5-bd20-e593c82a9e6d (<unnamed>)
+[DEBUG] 2020-09-02 07:36:01.910 [main] SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+[DEBUG] 2020-09-02 07:36:01.966 [main] StatisticsInitiator - Statistics initialized [enabled=false]
+[DEBUG] 2020-09-02 07:36:01.971 [main] TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[DEBUG] 2020-09-02 07:36:01.971 [main] TransactionImpl - begin
+[DEBUG] 2020-09-02 07:36:01.985 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:01.987 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:01.994 [main] IdentifierGeneratorHelper - Natively generated identity: 1
+[DEBUG] 2020-09-02 07:36:01.994 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:01.997 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:01.997 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:01.998 [main] IdentifierGeneratorHelper - Natively generated identity: 2
+[DEBUG] 2020-09-02 07:36:01.998 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:01.999 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:01.999 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:01.999 [main] IdentifierGeneratorHelper - Natively generated identity: 3
+[DEBUG] 2020-09-02 07:36:02.000 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.000 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.001 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.001 [main] IdentifierGeneratorHelper - Natively generated identity: 4
+[DEBUG] 2020-09-02 07:36:02.001 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.002 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.002 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.003 [main] IdentifierGeneratorHelper - Natively generated identity: 5
+[DEBUG] 2020-09-02 07:36:02.003 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.003 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.003 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.004 [main] IdentifierGeneratorHelper - Natively generated identity: 6
+[DEBUG] 2020-09-02 07:36:02.004 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.004 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.005 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.005 [main] IdentifierGeneratorHelper - Natively generated identity: 7
+[DEBUG] 2020-09-02 07:36:02.005 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.006 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.006 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.007 [main] IdentifierGeneratorHelper - Natively generated identity: 8
+[DEBUG] 2020-09-02 07:36:02.007 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.007 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.007 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.008 [main] IdentifierGeneratorHelper - Natively generated identity: 9
+[DEBUG] 2020-09-02 07:36:02.008 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.009 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.009 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.009 [main] IdentifierGeneratorHelper - Natively generated identity: 10
+[DEBUG] 2020-09-02 07:36:02.009 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.010 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.010 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.011 [main] IdentifierGeneratorHelper - Natively generated identity: 11
+[DEBUG] 2020-09-02 07:36:02.011 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.012 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.012 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.012 [main] IdentifierGeneratorHelper - Natively generated identity: 12
+[DEBUG] 2020-09-02 07:36:02.012 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.013 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.013 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.014 [main] IdentifierGeneratorHelper - Natively generated identity: 13
+[DEBUG] 2020-09-02 07:36:02.014 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.015 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.015 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.015 [main] IdentifierGeneratorHelper - Natively generated identity: 14
+[DEBUG] 2020-09-02 07:36:02.015 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.016 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.016 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.017 [main] IdentifierGeneratorHelper - Natively generated identity: 15
+[DEBUG] 2020-09-02 07:36:02.017 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.018 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.018 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.018 [main] IdentifierGeneratorHelper - Natively generated identity: 16
+[DEBUG] 2020-09-02 07:36:02.018 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.019 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.019 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.019 [main] IdentifierGeneratorHelper - Natively generated identity: 17
+[DEBUG] 2020-09-02 07:36:02.019 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.020 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.020 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.020 [main] IdentifierGeneratorHelper - Natively generated identity: 18
+[DEBUG] 2020-09-02 07:36:02.020 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.021 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.021 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.021 [main] IdentifierGeneratorHelper - Natively generated identity: 19
+[DEBUG] 2020-09-02 07:36:02.021 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.022 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.022 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.022 [main] IdentifierGeneratorHelper - Natively generated identity: 20
+[DEBUG] 2020-09-02 07:36:02.022 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.023 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.023 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.023 [main] IdentifierGeneratorHelper - Natively generated identity: 21
+[DEBUG] 2020-09-02 07:36:02.023 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.024 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.024 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.024 [main] IdentifierGeneratorHelper - Natively generated identity: 22
+[DEBUG] 2020-09-02 07:36:02.024 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.025 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.025 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.026 [main] IdentifierGeneratorHelper - Natively generated identity: 23
+[DEBUG] 2020-09-02 07:36:02.026 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.026 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.026 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.027 [main] IdentifierGeneratorHelper - Natively generated identity: 24
+[DEBUG] 2020-09-02 07:36:02.027 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.028 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.028 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.028 [main] IdentifierGeneratorHelper - Natively generated identity: 25
+[DEBUG] 2020-09-02 07:36:02.029 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.029 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.029 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.030 [main] IdentifierGeneratorHelper - Natively generated identity: 26
+[DEBUG] 2020-09-02 07:36:02.030 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.030 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.030 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.031 [main] IdentifierGeneratorHelper - Natively generated identity: 27
+[DEBUG] 2020-09-02 07:36:02.031 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.031 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.031 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.032 [main] IdentifierGeneratorHelper - Natively generated identity: 28
+[DEBUG] 2020-09-02 07:36:02.032 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.032 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.032 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.033 [main] IdentifierGeneratorHelper - Natively generated identity: 29
+[DEBUG] 2020-09-02 07:36:02.033 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.033 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.033 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.034 [main] IdentifierGeneratorHelper - Natively generated identity: 30
+[DEBUG] 2020-09-02 07:36:02.034 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.034 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.034 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.035 [main] IdentifierGeneratorHelper - Natively generated identity: 31
+[DEBUG] 2020-09-02 07:36:02.035 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.035 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2020-09-02 07:36:02.035 [main] SQL - insert into entries (field1, field2, field3, field4, field5, field6, field7) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2020-09-02 07:36:02.036 [main] IdentifierGeneratorHelper - Natively generated identity: 32
+[DEBUG] 2020-09-02 07:36:02.036 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-09-02 07:36:02.036 [main] TransactionImpl - committing
+[DEBUG] 2020-09-02 07:36:02.037 [main] AbstractFlushingEventListener - Processing flush-time cascades
+[DEBUG] 2020-09-02 07:36:02.037 [main] AbstractFlushingEventListener - Dirty checking collections
+[DEBUG] 2020-09-02 07:36:02.042 [main] AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 32 objects
+[DEBUG] 2020-09-02 07:36:02.043 [main] AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2020-09-02 07:36:02.043 [main] EntityPrinter - Listing entities:
+[DEBUG] 2020-09-02 07:36:02.044 [main] EntityPrinter - parser.Entry{field1=Plastic, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=30, field3=Publix, field2=Overwrap from shipping cases, field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.044 [main] EntityPrinter - parser.Entry{field1=Plastic, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=31, field3=Publix, field2=Overwrap from toilet paper, field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.044 [main] EntityPrinter - parser.Entry{field1=Plastic, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=28, field3=Publix, field2=Overwrap from napkins, field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.044 [main] EntityPrinter - parser.Entry{field1=Plastic, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=29, field3=Publix, field2=Overwrap from paper towels, field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.044 [main] EntityPrinter - parser.Entry{field1=Plastic, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=26, field3=Publix, field2=Cling wrap (Clean and dry), field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.044 [main] EntityPrinter - parser.Entry{field1=Plastic, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=27, field3=Publix, field2=Newspaper Sleeves, field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.044 [main] EntityPrinter - parser.Entry{field1=Plastic, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=24, field3=Publix, field2=Bags (Wood pellet), field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.044 [main] EntityPrinter - parser.Entry{field1=Plastic, field7=https://corporate.target.com/press/releases/2010/04/target-launches-recycling-stations#:~:text=Located%20at%20the%20front%20of,.com%2Feco%2Dfriendly., field6=https://www.target.com/store-locator/find-stores, id=25, field3=Target, field2=Bottles, field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.044 [main] EntityPrinter - parser.Entry{field1=Plastic, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=32, field3=Publix, field2=Zip-top and other resealable bags (without the zipper), field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.044 [main] EntityPrinter - parser.Entry{field1=Plastic, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=14, field3=Publix, field2=Air pillows, field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.045 [main] EntityPrinter - parser.Entry{field1=Plastic, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=15, field3=Publix, field2=#2 Soft Plastics, field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.045 [main] EntityPrinter - parser.Entry{field1=Paper, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=12, field3=Publix, field2=Paper bags, field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.045 [main] EntityPrinter - parser.Entry{field1=Paper, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=13, field3=Publix, field2=Publix Aprons® recipe cards, field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.045 [main] EntityPrinter - parser.Entry{field1=Paper, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=10, field3=Publix, field2=Ad inserts, field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.045 [main] EntityPrinter - parser.Entry{field1=Paper, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=11, field3=Publix, field2=Newspapers, field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.045 [main] EntityPrinter - parser.Entry{field1=Foam, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=8, field3=Publix, field2=Takeout trays (Clean), field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.045 [main] EntityPrinter - parser.Entry{field1=Glass, field7=https://help.target.com/help/targetguesthelparticledetail?articleId=ka91Y000000L5eFQAS&articleTitle=Can+I+recycle+items+at+a+Target+store%3F&clickSearchVar=Search+Results&searchQuery=recycle, field6=https://www.target.com/store-locator/find-stores, id=9, field3=Target, field2=Bottles, field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.045 [main] EntityPrinter - parser.Entry{field1=Plastic, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=22, field3=Publix, field2=Bags (Produce), field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.045 [main] EntityPrinter - parser.Entry{field1=Plastic, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=23, field3=Publix, field2=Bags (Salt) , field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.045 [main] EntityPrinter - parser.Entry{field1=Plastic, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=20, field3=Publix, field2=Bags (Ice), field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.045 [main] EntityPrinter - parser.Entry{field1=Plastic, field7=https://sustainability.publix.com/storefront/customer-recycling/, field6=https://www.publix.com/locations, id=21, field3=Publix, field2=Bags (Pharmacy), field5=No, field4=All Stores}
+[DEBUG] 2020-09-02 07:36:02.045 [main] EntityPrinter - More......
+[DEBUG] 2020-09-02 07:36:02.049 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2020-09-02 07:36:02.050 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2020-09-02 07:36:02.050 [main] SessionFactoryImpl - HHH000031: Closing
+[DEBUG] 2020-09-02 07:36:02.050 [main] TypeConfiguration$Scope - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@26f46fa6] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@1f443fae]
+[DEBUG] 2020-09-02 07:36:02.051 [main] AbstractServiceRegistryImpl - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[INFO ] 2020-09-02 07:36:02.051 [main] pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+[DEBUG] 2020-09-02 07:36:02.051 [main] BootstrapServiceRegistryImpl - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
