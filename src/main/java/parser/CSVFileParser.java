@@ -6,14 +6,12 @@ import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-
-
-
 
 
 /**
@@ -25,32 +23,29 @@ public class CSVFileParser {
 	
 	public static final Logger logger = LogManager.getLogger(CSVFileParser.class); 
 	private boolean debugFields = true;
-	private boolean debugEntry = true;
-
-	
+		
 	public void parseCSV() {
-		System.out.println("Entering parseCSV");
+		logger.debug("Entering parseCSV");
 		Path csvFile = FileSystems.getDefault().getPath("src/main/resources", "recyclingPlaces.csv");
+		Session session = null;
 		try(BufferedReader reader = Files.newBufferedReader(csvFile, StandardCharsets.UTF_8))
 		{
 			String line = null;
 			boolean firstLine = true;
 			//The parser reads every line in the file (except for the first line that contains the fields names)
-			if(debugEntry) {logger.debug("Getting hibernate.cfg.xml: "+FileSystems.getDefault().getPath("hibernate.cfg.xml").toString());}
+			if(logger.isDebugEnabled()) {logger.debug(String.format("Getting hibernate.cfg.xml: %s",FileSystems.getDefault().getPath("hibernate.cfg.xml").toString()));}
 			HibernateConnectionUtil.configureHibernate();
-			Session session = HibernateConnectionUtil.getSessionFactory().openSession();
+			session = HibernateConnectionUtil.getSessionFactory().openSession();
 			Transaction tx = session.beginTransaction();
 			
 			while ((line=reader.readLine()) != null)
 			{
-				if(debugEntry) {logger.debug("loop");}
+				if(logger.isDebugEnabled()) {logger.debug("loop");}
 				
 				if(firstLine) {firstLine=false; continue;}
 				//The parser maps a field in the file with the corresponding field in the Title object
 				Entry extractedDataEntry = this.parseLine(line);
-				if(debugEntry) {logger.debug(extractedDataEntry.toString());};
-				
-				//The Title object is mapped to the database
+				if(logger.isDebugEnabled()) {logger.debug(extractedDataEntry.toString());};
 				
 				session.persist(extractedDataEntry);				
 			}
@@ -61,6 +56,7 @@ public class CSVFileParser {
 			logger.debug(e.getMessage());
 		}
 		finally {			
+			if (session != null) session.close();
 			HibernateConnectionUtil.shutdownSession();
 			
 		}
@@ -72,10 +68,10 @@ public class CSVFileParser {
 		 * @param line the String to be parsed
 		 * @return An ArrayList with all the fields parsed
 		 */
-		public ArrayList<String> splitData(String line) {
+		public List<String> splitData(String line) {
 			
 			String field = "";
-			ArrayList<String> fields = new ArrayList<String>();	
+			List<String> fields = new ArrayList<>();	
 			
 				
 			//get beginning of String until you find ',' or a 2nd '"'
@@ -142,8 +138,7 @@ public class CSVFileParser {
 		public Entry parseLine(String line) {
 			
 			Entry entry = new Entry();
-			ArrayList<String> splitData = this.splitData(line);
-			
+			List<String> splitData = this.splitData(line);			
 			
 			entry.setField1(splitData.get(0));
 			entry.setField2(splitData.get(1));

@@ -1,0 +1,6 @@
+projectKey=RecyclingPlaces.jl.project
+serverUrl=http://localhost:9000
+serverVersion=8.7.0.41497
+dashboardUrl=http://localhost:9000/dashboard?id=RecyclingPlaces.jl.project
+ceTaskId=AXfzROS_4kQ7dRlfdmoV
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXfzROS_4kQ7dRlfdmoV
