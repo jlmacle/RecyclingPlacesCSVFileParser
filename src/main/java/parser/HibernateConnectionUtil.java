@@ -10,6 +10,11 @@ import org.hibernate.service.ServiceRegistry;
 
 public class HibernateConnectionUtil {
 	
+	private HibernateConnectionUtil()
+	{
+		throw new IllegalStateException("Utility class with static methods and attributes.");
+	}
+	
 	private static SessionFactory sessionFactory;
 	
 	public static void configureHibernate() {
